@@ -36,5 +36,5 @@ def Appendotoole(SetNames, NewSetItems, IARList, OARList, otooleOutputDirectory,
             shutil.copyfile(os.path.join(OsemosysGlobalPath, file), os.path.join(otooleOutputDirectory, file))
             
     os.rename(otooleOutputDirectory + 'COMMODITY.csv', otooleOutputDirectory + 'FUEL.csv')
-#   os.remove(otooleOutputDirectory + 'MODE_OF_OPERATION.csv')
-#   shutil.copyfile(OsemosysGlobalPath + 'MODE_OF_OPERATION.csv', otooleOutputDirectory + 'MODE_OF_OPERATION.csv')
+#    os.remove(otooleOutputDirectory + 'MODE_OF_OPERATION.csv')
+#    shutil.copyfile(OsemosysGlobalPath + 'MODE_OF_OPERATION.csv', otooleOutputDirectory + 'MODE_OF_OPERATION.csv')
