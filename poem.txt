@@ -4,4 +4,4 @@ Yellow
 Green
 Blue
 Violet
-rgrr
+Grr
